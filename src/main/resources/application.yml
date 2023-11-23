@@ -10,3 +10,8 @@ spring:
           uri: https://github.com/Renzo-develop/properties-files
           clone-on-start: true
           default-label: master
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
